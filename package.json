@@ -1,0 +1,22 @@
+{
+  "name": "single-leader-env",
+  "version": "1.0.0",
+  "description": "Database system with single-leader replication.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/24kk42/single-leader-env.git"
+  },
+  "author": "Fatih Güzel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/24kk42/single-leader-env/issues"
+  },
+  "homepage": "https://github.com/24kk42/single-leader-env#readme",
+  "dependencies": {
+    "mongoose": "^8.0.2"
+  }
+}
