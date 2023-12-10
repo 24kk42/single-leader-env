@@ -4,7 +4,7 @@
   "description": "Database system with single-leader replication.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/24kk42/single-leader-env#readme",
   "dependencies": {
-    "mongoose": "^8.0.2"
+    "mongoose": "^8.0.2",
+    "mongoose-sequence": "^5.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
